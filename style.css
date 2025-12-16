@@ -44,22 +44,35 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 90vw;
     margin: auto;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 8px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 8px;
+}
+
+.align-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.align-end {
+    display: flex;
+    align-items: flex-end;
 }
 
 .spaced {
