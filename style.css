@@ -43,24 +43,31 @@
     /* WIP */
 }
 
-.site-header {
-    /* WIP */
-}
-
 .container {
-    /* WIP */
+    max-width: 1000px;
+    margin: auto;
 }
 
 .row {
-    /* WIP */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 .spaced {
-    /* WIP */
+    justify-content: space-between;
 }
 
-.logo {
-    /* WIP */
+.wrap {
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -68,14 +75,6 @@
 }
 
 .cta {
-    /* WIP */
-}
-
-.hero-content {
-    /* WIP */
-}
-
-.column {
     /* WIP */
 }
 
@@ -87,7 +86,7 @@
     /* WIP */
 }
 
-.site-footer {
+.logo {
     /* WIP */
 }
 
