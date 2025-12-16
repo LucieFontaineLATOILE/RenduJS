@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <title>Rendu Javascript</title>
-    <link rel="stylesheet" href="style.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -15,7 +21,7 @@
             <div class="container">
                 <div class="row spaced align-center">
                     <h1 class="logo">Logo</h1>
-                    <div class="menu">
+                    <div class="menu row">
                         <a href="#hero">Accueil</a>
                         <a href="#avantages">Avantages</a>
                         <a href="#produits">Produits</a>
@@ -31,13 +37,9 @@
         <section id="hero">
             <div class="container">
                 <div class="column align-center">
-                    <h2 id="slogan-main">Slogan en gras important</h2>
+                    <h2 id="slogan-main" class="heading">Slogan en gras important</h2>
                     <p id="slogan-sub">Phrase plus longue et un peu moins importantes parce que pourquoi pas !</p>
-
-                    <div class="row">
-                        <a href="#" class="cta">Click Me</a>
-                        <a href="#" class="cta">Click Me</a>
-                    </div>
+                    <a href="#" class="cta">Click Me</a>
                 </div>
             </div>
         </section>
@@ -48,8 +50,7 @@
         <section id="avantages">
             <div class="container">
                 <div class="column align-center">
-                    <h2 class="section-title">Avantages</h2>
-                    <h2 class="section-slogan">Avantages - Phrase d'accrohe</h2>
+                    <h2 class="heading">Avantages</h2>
                     <div class="row wrap">
                         <!-- Cards added by JS -->
                     </div>
@@ -61,8 +62,7 @@
         <section id="produits">
             <div class="container">
                 <div class="column align-center">
-                    <h2 class="section-title">Produits</h2>
-                    <h2 class="section-slogan">Produits - Phrase d'accrohe</h2>
+                    <h2 class="heading">Produits</h2>
                     <div class="row wrap">
                         <!-- Cards added by JS -->
                     </div>
@@ -74,8 +74,7 @@
         <section id="services">
             <div class="container">
                 <div class="column align-center">
-                    <h2 class="section-title">Services</h2>
-                    <h2 class="section-slogan">Services - Phrase d'accrohe</h2>
+                    <h2 class="heading">Services</h2>
                     <div class="row wrap">
                         <!-- Cards added by JS -->
                     </div>
@@ -87,8 +86,7 @@
         <section id="temoignages">
             <div class="container">
                 <div class="column align-center">
-                    <h2 class="section-title">Temoignages</h2>
-                    <h2 class="section-slogan">Temoignages - Phrase d'accrohe</h2>
+                    <h2 class="heading">Temoignages</h2>
                     <div class="row wrap">
                         <!-- Cards added by JS -->
                     </div>
@@ -114,7 +112,7 @@
                         </div>
                     </div>
 
-                    <div class="menu column align-end">
+                    <div class="menu column align-end bold-text">
                         <a href="#hero">Accueil</a>
                         <a href="#avantages">Avantages</a>
                         <a href="#produits">Produits</a>
@@ -150,31 +148,31 @@
 
 <!-- Advantage Card -->
 <article class="card-base column align-center border">
-    <h3 class="card-major-title">Avantage #N</h3>
-    <p class="main-text">Description de l'avantage</p>
+    <h3 class="sub-heading">Avantage #N</h3>
+    <p>Description de l'avantage</p>
 </article>
 
 <!-- Product Card -->
 <article class="card-base column align-center">
     <img src="IMAGE_URL" alt="product image">
     <div class="card-base column align-left">
-        <h3 class="card-minor-title">Nom du produit</h3>
-        <p class="main-text">Description du produit</p>
+        <h3 class="bold-text">Nom du produit</h3>
+        <p>Description du produit</p>
     </div>
 </article>
 
 <!-- Service Card -->
 <article class="card-base column align-center">
-    <h3 class="card-major-title">Titre du service</h3>
-    <p class="main-text">Description du service</p>
+    <h3 class="sub-heading">Titre du service</h3>
+    <p>Description du service</p>
 </article>
 
 <!-- Testimony Card -->
 <article class="card-base column align-left border">
-    <p class="main-text">Note: N/5</p>
-    <p class="main-text">"Avis de la personne"</p>
+    <p>Note: N/5</p>
+    <p>"Avis de la personne"</p>
     <div class="column align-left">
         <h3 class="bold-text">Nom Prenom</h3>
-        <p class="main-text">Type de client</p>
+        <p>Type de client</p>
     </div>
 </article>
