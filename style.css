@@ -8,6 +8,8 @@
 
     --font-size-text: 14px;
     --font-size-links: 20px;
+
+    --card-width: 25%;
 }
 
 * {
@@ -18,6 +20,10 @@
     font-size: var(--font-size-text);
     color: black;
     text-decoration: none;
+}
+
+img {
+    width: 100%;
 }
 
 #nav-bar {
@@ -92,6 +98,10 @@
     align-items: flex-end;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .spaced {
     justify-content: space-between;
 }
@@ -124,7 +134,7 @@
 }
 
 .card-base {
-    width: 30%;
+    width: var(--card-width);
     padding: 20px;
 }
 
